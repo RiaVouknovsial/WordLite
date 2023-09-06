@@ -197,7 +197,7 @@ private void button2_Click(object sender, EventArgs e)
                 Font newFont = new Font(currentFont, fontStyle);
 
                 richTextBox1.SelectionFont = newFont;
-                richTextBox1.Select(selectionStart + selectionLength, 0); // Снять выделение
+                richTextBox1.Select(selectionStart + selectionLength, 0) // Снять выделение
             }
         }
 
